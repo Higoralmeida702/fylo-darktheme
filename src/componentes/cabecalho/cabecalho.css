@@ -1,0 +1,17 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 60px 60px;
+}
+
+.cabecalho nav a{
+    text-decoration: none;
+    margin-left: 50px;
+    color: rgb(184, 184, 184);
+}
+
+.cabecalho nav a:hover {
+    color: white;
+    text-decoration: underline;
+}

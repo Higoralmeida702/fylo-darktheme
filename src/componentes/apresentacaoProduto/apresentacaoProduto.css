@@ -1,0 +1,74 @@
+.apresentacaoProduto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.descricaoProduto {
+    color: white;
+    width: 700px;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.descricaoProduto button{
+    color: white;
+    background-color: hsl(198, 60%, 50%);
+    padding: 14px;
+    width: 250px;
+    font-weight: 700;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.descricaoProduto button:hover {
+    background-color: hsl(176, 68%, 64%);
+}
+
+.funcionalidadesProduto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 130px;
+    gap: 100px;
+}
+
+.organizacaoProduto {
+    align-items: center;
+    width: 480px;
+    text-align: center;
+}
+
+.stayProductive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+.stayProdutiveDescricao {
+    margin-left: 100px;
+    width: 600px;
+}
+
+.stayProdutiveDescricao h1 {
+    font-size: 38px;
+    font-family: "Raleway", sans-serif;
+
+}
+
+.stayProdutiveDescricao a{
+    color: hsl(198, 60%, 50%);
+}
+
+.stayProdutiveDescricao a:hover{
+    color: rgb(184, 184, 184);
+}
+
+.stayProdutiveDescricao img {
+    margin-left: 10px;
+}
+
